@@ -1,27 +1,26 @@
-SITESERV MULTI-PAGE MARKETING WEBSITE
+SITESERV MARKETING WEBSITE
 
-Pages
-- index.html — product homepage and core marketing story
-- platform.html — platform modules, workflows, documentation, cost visibility and product boundaries
-- services.html — 11 temporary construction-site service and infrastructure categories
-- approach.html — end-to-end service lifecycle
-- about.html — customer segments, users and product positioning
-- contact.html — Netlify Forms inquiry form for product walkthroughs and pilot discussions
+This archive is structured for direct deployment from a repository root.
 
-Local preview
-Open index.html in a browser. The website is static HTML, CSS and JavaScript; no build step is required.
+DEPLOY TO GITHUB PAGES
+1. Extract this ZIP.
+2. Upload the CONTENTS of the extracted folder to the top level of your GitHub repository (not the enclosing folder).
+3. Confirm index.html is visible at the repository root beside styles.css, script.js, and the assets folder.
+4. In GitHub, open Settings > Pages and publish from the main branch and /(root).
+5. Open the GitHub Pages site URL. The homepage loads automatically from index.html; the Home link is also visible in the main navigation on every page.
 
-Deployment
-The contact form uses Netlify Forms attributes. For form delivery, deploy this folder to Netlify with form detection enabled, then verify the form submission and configure notification recipients in the Netlify dashboard. The form will not send email from a local file preview.
+PAGES
+- index.html: Home
+- platform.html: Platform
+- services.html: Current service categories
+- approach.html: How the service lifecycle is organized
+- about.html: Who the platform is designed for
+- contact.html: Contact and inquiry form
 
-Product accuracy
-The website content follows the SITESERV scope in the WORKBASE Corporate Business Plan, especially the SITESERV product definition and detailed specification. Core release priorities and potential future development are labeled separately. The workspace preview is illustrative, not a live application screen. SITESERV is positioned as a vendor-neutral coordination platform; it does not claim to provide site services, guarantee provider availability or performance, certify engineering or safety, replace construction project management or accounting systems, or execute every supplier payment.
+IMAGES
+The homepage hero, services-page image and contact-page image use three different newly generated SITESERV construction-site photographs. The original PNG masters are retained in assets/source-originals/; optimized WebP files are used on the pages. The site does not reuse these three photographs across pages.
 
-Images
-Photographs are assigned to unique locations across the six pages; no photograph is reused as a second page image. Brand logo and favicon repetition is intentional.
+CONTACT FORM
+The inquiry form is configured for Netlify Forms. On GitHub Pages, connect a form endpoint before using it to collect submissions.
 
-Before public launch
-- Verify trademark and domain permissions for SITESERV.
-- Add the official SITESERV website/app destination when deployment is ready.
-- Set Netlify form notification recipients.
-- Confirm that all product capability language matches the release currently available to customers.
+SITESERV coordinates the organization of temporary construction-site services. Installation, maintenance, servicing, and removal are performed by contracted providers.
